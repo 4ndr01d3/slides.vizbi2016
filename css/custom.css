@@ -1,0 +1,25 @@
+:root {
+  --dark-green: #004342;
+}
+
+.slides section img {
+  border: 0;
+}
+
+.slides section ul ul {
+  font-size: 0.8em;
+}
+
+span.name {
+  color: var(--dark-green);
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+span.name::before {
+  content: "- ";
+}
+
+span.name > span:last-of-type, span.sc {
+  font-variant: small-caps;
+}
