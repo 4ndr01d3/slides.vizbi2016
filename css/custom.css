@@ -53,6 +53,10 @@ span.name > span:last-of-type, span.sc {
   text-align: center;
 }
 
+.slides img[src="images/matt.png"] {
+  box-shadow: none;
+}
+
 .slides .fragment:not(.current-fragment) > figure {
   display: none;
 }
